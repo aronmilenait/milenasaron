@@ -12,7 +12,7 @@ import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+ReactDOM.render(
   <BrowserRouter> 
     <React.StrictMode>
       <Navbar />
@@ -24,5 +24,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       <Contact />
       <Footer />
     </React.StrictMode>
-  </BrowserRouter>
+  </BrowserRouter>,
+  document.getElementById('root')
 );
