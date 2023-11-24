@@ -43,7 +43,7 @@ const Skills: () => JSX.Element = () => (
   
         <div className="bg-violet-900 p-6 rounded-lg shadow-lg text-center text-white">
           <FontAwesomeIcon icon={faLaptopCode} className="text-4xl mb-4" />
-          <p className="text-xl font-bold mb-4">Automation</p>
+          <p className="text-xl font-bold mb-4">Marketing Tech</p>
           <p className="text-lg font-semibold mb-2">My skills are:</p>
           <ul>
             <li>Low-Code Platforms</li>

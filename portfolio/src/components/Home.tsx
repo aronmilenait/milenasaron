@@ -5,7 +5,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const headerLinkClasses =
   "text-violet-900 mr-4 hover:text-violet-950 hover:scale-110 transition-all duration-300";
-const Header: React.FC = () => {
+const Header: () => JSX.Element = () => {
   return (
     <header className="py-40 flex justify-center items-center">
       <div className="text-center">
@@ -21,7 +21,7 @@ const Header: React.FC = () => {
               id="page-description"
               className="text-3xl font-bold text-violet-900"
             >
-              Full-Stack Developer
+              Software Developer
             </p>
             <div className="flex justify-center mt-4">
               <a

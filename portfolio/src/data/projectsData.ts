@@ -1,31 +1,35 @@
+import portfolioImg from '../assets/portfolio.png';
+import astronomyImg from '../assets/astronomy101.png';
+import currencyImg from '../assets/currency.png';
+import memotestImg from '../assets/memotest.png';
+
 export const projectsData = [
-    {
-      title: "Portfolio",
-      description: "The portfolio you are in, right now.",
-      src: "portfolio.png",
-      link: "https://github.com/aronmilenait/milenasaron",
-      technologies: ["TypeScript", "ReactJS", "Vite", "Tailwind CSS"],
-    },
-    {
-      title: "Astronomy 101",
-      description: "Learn about the basics of astronomy.",
-      src: "../assets/astronomy101.png",
-      link: "https://github.com/aronmilenait/astronomy101",
-      technologies: ["ReactJS", "Bootstrap"],
-    },
-    {
-      title: "Currency Converter",
-      description: "Convert between currencies.",
-      src: "../assets/currency.png",
-      link: "https://github.com/aronmilenait/currencyConverter",
-      technologies: ["Vanilla JS", "RESTFul API"],
-    },
-    {
-      title: "Ocean Memotest",
-      description: "Memorize the ocean.",
-      src: "../assets/memotest.png",
-      link: "https://github.com/aronmilenait/memotest",
-      technologies: ["Vanilla JS", "Bootstrap"],
-    },
-  ];
-  
+  {
+    title: "Portfolio",
+    description: "My portfolio as a software developer.",
+    src: portfolioImg,
+    link: "https://aronmilenait.github.io/milenasaron/",
+    technologies: ["TypeScript", "ReactJS", "Vite", "Tailwind CSS"],
+  },
+  {
+    title: "Astronomy 101",
+    description: "Landing page for an astronomy course.",
+    src: astronomyImg,
+    link: "https://aronmilenait.github.io/astronomy-web-app/",
+    technologies: ["ReactJS", "Bootstrap"],
+  },
+  {
+    title: "Currency Converter",
+    description: "Convert between currencies from all over the world.",
+    src: currencyImg,
+    link: "https://aronmilenait.github.io/currency_converter/",
+    technologies: ["Vanilla JS", "RESTFul API"],
+  },
+  {
+    title: "Ocean Memotest",
+    description: "A game in spanish, my native language.",
+    src: memotestImg,
+    link: "https://aronmilenait.github.io/memotest/",
+    technologies: ["Vanilla JS", "Bootstrap"],
+  },
+];
